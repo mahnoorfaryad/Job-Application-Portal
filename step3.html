@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Step 3 - Experience & Skills</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="background">
+    <div class="form-container">
+      <h1>Step 3: Experience & Skills</h1>
+      <div class="progress-container">
+        <div class="progress-step active">1</div>
+        <div class="progress-step active">2</div>
+        <div class="progress-step active">3</div>
+        <div class="progress-step">4</div>
+      </div>
+
+      <form id="form-step3">
+        <div class="input-group">
+          <label for="skills">Skills* (comma separated)</label>
+          <input type="text" id="skills" placeholder="JavaScript, Python, React" required>
+        </div>
+        <div class="input-group">
+          <label for="experience">Experience (years)*</label>
+          <input type="number" id="experience" min="0" required>
+        </div>
+        <div class="input-group">
+          <label for="portfolio">Portfolio / LinkedIn</label>
+          <input type="url" id="portfolio" placeholder="https://linkedin.com/in/username">
+        </div>
+        <div class="input-group">
+          <label for="resume">Upload Resume* (PDF, DOC, DOCX)</label>
+          <input type="file" id="resume" accept=".pdf,.doc,.docx" required>
+        </div>
+
+        <div class="buttons">
+          <a href="step2.html" class="btn prev">Previous</a>
+          <button type="submit" class="btn next">Next</button>
+        </div>
+      </form>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
+<footer style="
+  text-align:center;
+  font-size:14px;
+  color:#bbb;
+  margin-top:30px;
+  padding:15px 0;
+  opacity:0.8;">
+  © 2026 Job Application Portal 
+</footer>

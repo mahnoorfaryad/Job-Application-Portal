@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Step 2 - Education</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="background">
+    <div class="form-container">
+      <h1>Step 2: Education</h1>
+      <div class="progress-container">
+        <div class="progress-step active">1</div>
+        <div class="progress-step active">2</div>
+        <div class="progress-step">3</div>
+        <div class="progress-step">4</div>
+      </div>
+
+      <form id="form-step2">
+        <div class="input-group">
+          <label for="college">College/University*</label>
+          <input type="text" id="college" placeholder="Punjab University" required>
+        </div>
+        <div class="input-group">
+          <label for="degree">Degree*</label>
+          <select id="degree" required>
+            <option value="">Select Degree</option>
+            <option>Bachelor</option>
+            <option>Master</option>
+            <option>PhD</option>
+            <option>Diploma</option>
+          </select>
+        </div>
+        <div class="input-group">
+          <label for="graduationYear">Graduation Year*</label>
+          <input type="number" id="graduationYear" min="2000" max="2030" required>
+        </div>
+
+        <div class="buttons">
+          <a href="step1.html" class="btn prev">Previous</a>
+          <button type="submit" class="btn next">Next</button>
+        </div>
+      </form>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
+<footer style="
+  text-align:center;
+  font-size:14px;
+  color:#bbb;
+  margin-top:30px;
+  padding:15px 0;
+  opacity:0.8;">
+  © 2026 Job Application Portal 
+</footer>
