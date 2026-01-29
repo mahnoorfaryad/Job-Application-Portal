@@ -1,4 +1,4 @@
-# CareerHub - Job Application Portal
+#  Job Application Portal
 
 This is a **Job Application Portal** developed as part of my internship at **Internee.pk**.  
 The portal allows candidates to apply for jobs through a **multi-step form**, providing their **personal info, education, experience, skills, portfolio links, and resume upload**.
